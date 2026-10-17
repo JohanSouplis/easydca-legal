@@ -1,0 +1,8 @@
+title: EasyDCA
+description: Confidentialité, conditions d'utilisation et suppression de compte
+lang: fr
+theme: minima
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
