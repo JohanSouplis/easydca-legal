@@ -8,7 +8,7 @@ change (par exemple un outil de suivi des plantages), cette page sera mise à jo
 
 ## 1. Qui est responsable
 
-EasyDCA est éditée par **Johan Souplis**, à titre personnel, responsable du traitement.
+EasyDCA est éditée **à titre personnel, par un particulier**, responsable du traitement, joignable à l'adresse ci-dessous.
 Contact pour toute question ou demande : **investisseurlogique@gmail.com**.
 
 ## 2. Ce qu'EasyDCA ne fait pas

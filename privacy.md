@@ -8,7 +8,7 @@ reporting tool), this page will be updated first.
 
 ## 1. Who is responsible
 
-EasyDCA is published by **Johan Souplis**, as an individual, who is the data controller.
+EasyDCA is published **by a private individual**, who is the data controller and can be reached at the address below.
 Contact for any question or request: **investisseurlogique@gmail.com**.
 
 ## 2. What EasyDCA does not do
