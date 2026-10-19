@@ -1,6 +1,6 @@
 # EasyDCA terms of use
 
-*Last updated: October 17, 2026. [Version française](conditions.md)*
+*Last updated: October 19, 2026. [Version française](conditions.md)*
 
 By using EasyDCA, you accept these terms. They are short: please read them.
 
@@ -51,6 +51,10 @@ The publisher may rename a nickname or team name, or suspend an account, if thes
   Do not rely on them alone for an important due date.
 - To the extent permitted by law, the publisher is not liable for investment decisions made using
   the app or for their results.
+- The community **Discord server** is optional: the app only gives its link. Discord is a
+  third-party service, with its own terms; on the server, the pinned rules apply and nothing said
+  there is investment advice. Linking your Discord account earns 50 XP once (never season points);
+  you can unlink it at any time, the XP stays yours.
 
 ## 6. Personal data
 

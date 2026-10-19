@@ -1,6 +1,6 @@
 # Conditions d'utilisation d'EasyDCA
 
-*Dernière mise à jour : 17 octobre 2026. [English version](terms.md)*
+*Dernière mise à jour : 19 octobre 2026. [English version](terms.md)*
 
 En utilisant EasyDCA, tu acceptes ces conditions. Elles sont courtes : lis-les.
 
@@ -51,6 +51,11 @@ L'éditeur peut renommer un pseudo ou un nom d'équipe, ou suspendre un compte, 
   retard ou pas du tout. Ne compte pas uniquement sur eux pour une échéance importante.
 - Dans les limites permises par la loi, l'éditeur n'est pas responsable des décisions
   d'investissement prises à partir de l'appli ni de leurs résultats.
+- Le **serveur Discord** de la communauté est facultatif : l'appli n'en donne que le lien. Discord
+  est un service tiers, avec ses propres conditions ; sur le serveur, les règles épinglées
+  s'appliquent et rien de ce qui s'y dit n'est un conseil en investissement. Lier ton compte
+  Discord rapporte 50 XP une seule fois (jamais de points de saison) ; tu peux le délier quand tu
+  veux, l'XP reste acquise.
 
 ## 6. Données personnelles
 

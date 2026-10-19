@@ -16,7 +16,8 @@ Contact pour toute question ou demande : **investisseurlogique@gmail.com**.
 - Pas de publicité, pas de revente ni de location de données, pas de profilage publicitaire.
 - Pas d'outil de mesure d'audience ni de traceur publicitaire dans l'appli. Les seuls services
   tiers intégrés sont le suivi des plantages et l'envoi des notifications (Firebase, voir § 3 et § 6),
-  sans aucune donnée d'usage.
+  sans aucune donnée d'usage. Le serveur **Discord** de la communauté est un service tiers
+  **facultatif** : l'appli n'en propose qu'un lien et ne lui envoie aucune donnée (voir § 6).
 - Aucune connexion à ta banque ou à ton courtier : EasyDCA ne voit ni tes comptes ni tes ordres.
   **Tous les montants sont ceux que tu saisis toi-même.**
 - Pas de localisation, pas d'accès à tes contacts, photos, micro ou caméra.
@@ -35,6 +36,7 @@ Contact pour toute question ou demande : **investisseurlogique@gmail.com**.
 | **Sur ton téléphone seulement** : jeton de session, copie locale de tes données (pour que l'appli marche hors ligne), modifications pas encore envoyées, langue, succès et accessoires de Pépite, rappels programmés, données du widget d'écran d'accueil | l'appli | fonctionner hors connexion, rappels et widget |
 | **Rapports de plantage** (Firebase Crashlytics) : quand l'appli plante ou rencontre une erreur, la trace technique (fichier et ligne du code en cause, type d'erreur, message débarrassé des e-mails, nombres, montants et identifiants), le modèle et la version d'Android du téléphone, la version de l'appli, un identifiant d'installation aléatoire de Firebase | l'appli, automatiquement (version publiée seulement) | trouver et corriger les plantages ; jamais ton e-mail, ton identifiant de compte, tes montants ni ton plan |
 | **Jeton de notification** (Firebase Cloud Messaging) : identifiant d'installation de l'appli pour les notifications, type de téléphone (Android), fuseau horaire du téléphone, date de mise à jour | l'appli, après ta connexion | t'envoyer tout de suite une notification (demande d'ami, partage, invitation ou nouvelle d'équipe, encouragement) et, le soir à 18 h dans ton fuseau, un rappel si l'échéance du jour n'est pas validée et que tes rappels sont activés ; effacé à la déconnexion et à la suppression du compte |
+| **Liaison Discord** (seulement si tu lies ton compte) : identifiant numérique de ton compte Discord, date de la liaison, trace du bonus d'XP (date, 50 points) ; code de liaison temporaire | ta demande de code dans l'appli, puis la commande « /lier » que tu tapes sur le serveur Discord | te donner le rôle « Membre vérifié » sur le serveur et le bonus de 50 XP une seule fois ; jamais ton e-mail, tes montants ni ton plan, et rien n'est envoyé à Discord par l'appli |
 | **Lien d'installation** (Google Play Install Referrer) : le code ami contenu dans un lien d'invitation | Google Play, au premier lancement | pré-remplir le code de ton parrain ; il n'est envoyé au serveur que si tu valides ce code |
 
 Les **rappels** (veille, jour J, jours suivants, « Revoir dans 7 jours ») sont des notifications
@@ -81,6 +83,15 @@ contractuelles types du prestataire). Toutes les communications sont chiffrées 
 Les données ne partent pas dans la sauvegarde Google du téléphone : elles reviennent depuis le
 serveur quand tu te reconnectes.
 
+**Discord (service tiers facultatif)** : l'appli propose de rejoindre le serveur Discord de la
+communauté EasyDCA (tutos, entraide, salons d'équipe). Discord (Discord Inc.) est un service
+indépendant, avec ses propres conditions et sa propre politique de confidentialité, qui s'appliquent
+à ce que tu y publies. L'appli n'intègre aucun outil de Discord et ne lui envoie aucune donnée : le
+lien s'ouvre simplement dans Discord ou dans ton navigateur. Si tu lies ton compte (« Lier mon
+compte Discord »), la liaison est faite par le serveur d'EasyDCA quand tu tapes ton code sur Discord :
+seul l'identifiant numérique de ton compte Discord est alors conservé dans Supabase, sans ton pseudo
+Discord ni tes messages.
+
 **Alertes internes d'exploitation** (intérêt légitime : suivre le bon fonctionnement du service) :
 l'éditeur, et lui seul, reçoit dans un salon privé de son serveur Discord de courtes alertes (nouveau
 compte avec son numéro d'ordre, premier versement validé avec ton pseudo s'il existe, premier
@@ -92,6 +103,9 @@ semaine). Elles ne contiennent jamais ton e-mail, tes montants ni ton plan.
 - Tant que ton compte existe, pour tout ce qui sert à l'appli.
 - Encouragements d'équipe : 30 jours au plus ; invitations d'équipe : 7 jours ; limites anti-abus :
   environ un jour ; rappels du soir déjà envoyés (date de l'échéance) : 60 jours.
+- Liaison Discord : jusqu'à ce que tu délies ton compte (Profil et réglages) ou que tu supprimes ton
+  compte ; code de liaison : 15 minutes au plus, effacé dès qu'il sert ; trace du bonus d'XP (pour
+  ne pas le verser deux fois) : jusqu'à la suppression du compte.
 - Jeton de notification : jusqu'à la déconnexion, la suppression du compte, ou dès que Firebase
   l'indique comme périmé (appli désinstallée). Rapports de plantage : 90 jours chez Firebase.
 - À la **suppression du compte**, tout est effacé immédiatement et définitivement (voir

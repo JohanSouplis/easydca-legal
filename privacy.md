@@ -16,7 +16,8 @@ Contact for any question or request: **investisseurlogique@gmail.com**.
 - No advertising, no sale or rental of data, no advertising profiling.
 - No audience measurement tool and no advertising tracker in the app. The only third-party services
   built in are crash reporting and notification delivery (Firebase, see § 3 and § 6), with no usage
-  data.
+  data. The community **Discord** server is an **optional** third-party service: the app only offers
+  a link to it and sends it no data (see § 6).
 - No connection to your bank or broker: EasyDCA sees neither your accounts nor your orders.
   **All amounts are the ones you type in yourself.**
 - No location, no access to your contacts, photos, microphone or camera.
@@ -35,6 +36,7 @@ Contact for any question or request: **investisseurlogique@gmail.com**.
 | **On your phone only**: session token, local copy of your data (so the app works offline), changes not yet sent, language, Pépite achievements and accessories, scheduled reminders, home screen widget data | the app | working offline, reminders and widget |
 | **Crash reports** (Firebase Crashlytics): when the app crashes or hits an error, the technical trace (file and line of the code involved, error type, message stripped of e-mails, numbers, amounts and identifiers), the phone model and Android version, the app version, a random Firebase installation id | the app, automatically (released version only) | finding and fixing crashes; never your e-mail, account id, amounts or plan |
 | **Notification token** (Firebase Cloud Messaging): installation id of the app for notifications, type of phone (Android), the phone's time zone, last update date | the app, after you sign in | notifying you right away (friend request, share, team invitation or news, encouragement) and, in the evening at 6 pm in your time zone, a reminder if today's due date is not validated and your reminders are on; erased when you sign out and when you delete your account |
+| **Discord link** (only if you link your account): numeric id of your Discord account, link date, record of the XP bonus (date, 50 points); temporary link code | your code request in the app, then the “/lier” command you type on the Discord server | giving you the “Verified member” role on the server and the 50 XP bonus once; never your e-mail, amounts or plan, and the app sends nothing to Discord |
 | **Install link** (Google Play Install Referrer): the friend code contained in an invitation link | Google Play, on first launch | pre-filling your sponsor's code; it is sent to the server only if you confirm that code |
 
 **Reminders** (day before, due day, following days, "Review in 7 days") are notifications scheduled
@@ -79,6 +81,14 @@ communication is encrypted (HTTPS).
 Data is not included in the phone's Google backup: it comes back from the server when you sign in
 again.
 
+**Discord (optional third-party service)**: the app offers to join the EasyDCA community Discord
+server (tutorials, mutual help, team channels). Discord (Discord Inc.) is an independent service, with
+its own terms and privacy policy, which apply to what you post there. The app embeds no Discord tool
+and sends it no data: the link simply opens in Discord or your browser. If you link your account
+(“Link my Discord account”), the link is made by the EasyDCA server when you type your code on
+Discord: only the numeric id of your Discord account is then kept in Supabase, without your Discord
+username or your messages.
+
 **Internal operational alerts** (legitimate interest: monitoring that the service works): the
 publisher, and only the publisher, receives short alerts in a private channel of his Discord server
 (new account with its sequence number, first validated contribution with your nickname if any, first
@@ -90,6 +100,9 @@ contain your e-mail, your amounts or your plan.
 - As long as your account exists, for everything the app needs.
 - Team encouragements: 30 days at most; team invitations: 7 days; anti-abuse limits: about one day;
   evening reminders already sent (due date): 60 days.
+- Discord link: until you unlink your account (Profile and settings) or delete your account; link
+  code: 15 minutes at most, erased as soon as it is used; record of the XP bonus (so it is never paid
+  twice): until you delete your account.
 - Notification token: until you sign out, delete your account, or as soon as Firebase reports it as
   stale (app uninstalled). Crash reports: 90 days at Firebase.
 - When you **delete your account**, everything is erased immediately and permanently (see
