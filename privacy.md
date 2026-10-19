@@ -1,6 +1,6 @@
 # EasyDCA privacy policy
 
-*Last updated: October 17, 2026. [Version française](confidentialite.md)*
+*Last updated: October 19, 2026. [Version française](confidentialite.md)*
 
 This policy explains what data the EasyDCA Android app processes, why, where it is stored and how
 to exercise your rights. It describes the app as it is: if it changes (for example a crash
@@ -68,6 +68,12 @@ communication is encrypted (HTTPS).
 
 Data is not included in the phone's Google backup: it comes back from the server when you sign in
 again.
+
+**Internal operational alerts** (legitimate interest: monitoring that the service works): the
+publisher, and only the publisher, receives short alerts in a private channel of his Discord server
+(new account with its sequence number, first validated contribution with your nickname if any, first
+user or first team to reach a milestone, technical errors, aggregated weekly figures). They never
+contain your e-mail, your amounts or your plan.
 
 ## 7. How long
 

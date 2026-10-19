@@ -1,6 +1,6 @@
 # Politique de confidentialité d'EasyDCA
 
-*Dernière mise à jour : 17 octobre 2026. [English version](privacy.md)*
+*Dernière mise à jour : 19 octobre 2026. [English version](privacy.md)*
 
 Cette politique explique quelles données l'application Android EasyDCA traite, pourquoi, où elles
 sont conservées et comment exercer tes droits. Elle décrit l'appli telle qu'elle est : si elle
@@ -71,6 +71,12 @@ contractuelles types du prestataire). Toutes les communications sont chiffrées 
 
 Les données ne partent pas dans la sauvegarde Google du téléphone : elles reviennent depuis le
 serveur quand tu te reconnectes.
+
+**Alertes internes d'exploitation** (intérêt légitime : suivre le bon fonctionnement du service) :
+l'éditeur, et lui seul, reçoit dans un salon privé de son serveur Discord de courtes alertes (nouveau
+compte avec son numéro d'ordre, premier versement validé avec ton pseudo s'il existe, premier
+utilisateur ou première équipe à atteindre un palier, erreurs techniques, chiffres agrégés de la
+semaine). Elles ne contiennent jamais ton e-mail, tes montants ni ton plan.
 
 ## 7. Combien de temps
 
