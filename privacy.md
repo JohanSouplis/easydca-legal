@@ -1,6 +1,6 @@
 # EasyDCA privacy policy
 
-*Last updated: October 19, 2026. [Version française](confidentialite.md)*
+*Last updated: October 21, 2026. [Version française](confidentialite.md)*
 
 This policy explains what data the EasyDCA Android app processes, why, where it is stored and how
 to exercise your rights. It describes the app as it is: if it changes, this page will be updated
@@ -13,7 +13,8 @@ Contact for any question or request: **investisseurlogique@gmail.com**.
 
 ## 2. What EasyDCA does not do
 
-- No advertising, no sale or rental of data, no advertising profiling.
+- **Your data is never sold**: no sale or rental of data, no advertising, no advertising
+  profiling.
 - No audience measurement tool and no advertising tracker in the app. The only third-party services
   built in are crash reporting and notification delivery (Firebase, see § 3 and § 6), with no usage
   data. The community **Discord** server is an **optional** third-party service: the app only offers

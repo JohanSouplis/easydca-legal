@@ -1,6 +1,6 @@
 # Politique de confidentialité d'EasyDCA
 
-*Dernière mise à jour : 19 octobre 2026. [English version](privacy.md)*
+*Dernière mise à jour : 21 octobre 2026. [English version](privacy.md)*
 
 Cette politique explique quelles données l'application Android EasyDCA traite, pourquoi, où elles
 sont conservées et comment exercer tes droits. Elle décrit l'appli telle qu'elle est : si elle
@@ -13,7 +13,8 @@ Contact pour toute question ou demande : **investisseurlogique@gmail.com**.
 
 ## 2. Ce qu'EasyDCA ne fait pas
 
-- Pas de publicité, pas de revente ni de location de données, pas de profilage publicitaire.
+- **Tes données ne sont jamais vendues** : pas de revente ni de location de données, pas de
+  publicité, pas de profilage publicitaire.
 - Pas d'outil de mesure d'audience ni de traceur publicitaire dans l'appli. Les seuls services
   tiers intégrés sont le suivi des plantages et l'envoi des notifications (Firebase, voir § 3 et § 6),
   sans aucune donnée d'usage. Le serveur **Discord** de la communauté est un service tiers

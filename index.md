@@ -4,7 +4,9 @@
 
 EasyDCA est une application Android qui t'aide à investir régulièrement (DCA), à tenir ton plan
 d'investissement sur le long terme et à te motiver avec tes amis. **Ce n'est pas un conseil en
-investissement** : l'appli ne gère pas d'argent et n'exécute aucun ordre.
+investissement** : l'appli ne gère pas d'argent et n'exécute aucun ordre. Son seul but est de te
+motiver : elle récompense ta régularité, jamais le rendement de tes placements. **Tes données ne
+sont jamais vendues.**
 
 - [Politique de confidentialité](confidentialite.md) : quelles données, pourquoi, où, combien de
   temps, tes droits.
