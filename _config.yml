@@ -6,3 +6,6 @@ plugins:
   - jekyll-relative-links
 relative_links:
   enabled: true
+# Adresse du groupe Google des testeurs du test fermé (ex. easydca-testeurs@googlegroups.com).
+# Vide : la page « Rejoindre le test » affiche « Inscriptions bientôt ouvertes ».
+groupe_testeurs: ""

@@ -14,4 +14,6 @@ sont jamais vendues.**
   attend de toi.
 - [Supprimer ton compte](suppression-du-compte.md) : dans l'appli, ou par e-mail sans l'appli.
 
+Envie d'essayer EasyDCA avant sa sortie ? [Rejoindre le test](rejoindre-le-test.md).
+
 Contact : **investisseurlogique@gmail.com**
