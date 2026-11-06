@@ -1,6 +1,6 @@
 # Politique de confidentialité d'EasyDCA
 
-*Dernière mise à jour : 21 octobre 2026. [English version](privacy.md)*
+*Dernière mise à jour : 6 novembre 2026. [English version](privacy.md)*
 
 Cette politique explique quelles données l'application Android EasyDCA traite, pourquoi, où elles
 sont conservées et comment exercer tes droits. Elle décrit l'appli telle qu'elle est : si elle
@@ -49,6 +49,12 @@ sécurité. Tu peux couper les notifications dans les réglages d'Android ou les
 
 La **carte de partage de Pépite** est une image fabriquée sur ton téléphone ; elle ne part que vers
 l'application que tu choisis dans la feuille de partage d'Android.
+
+**Test fermé (avant la sortie sur le Play Store)** : si tu demandes à tester l'appli, tu envoies
+toi-même ton adresse Gmail à l'éditeur (en message privé). Elle sert **uniquement** à t'ajouter à
+la liste des testeurs dans la console Google Play, pour que Google Play te donne accès à l'appli ;
+elle n'est ni partagée ni utilisée pour autre chose, et n'entre pas dans la base de l'appli.
+Voir [Rejoindre le test](rejoindre-le-test.md).
 
 ## 4. Qui voit quoi
 
@@ -113,6 +119,8 @@ semaine). Elles ne contiennent jamais ton e-mail, tes montants ni ton plan.
   [Supprimer ton compte](suppression-du-compte.md)). Seule exception : l'XP déjà gagnée par ton
   parrain grâce à toi reste sur son compte, sans lien avec le tien.
 - Sur ton téléphone : jusqu'à la déconnexion, la suppression du compte ou la désinstallation.
+- Adresse Gmail d'un testeur : dans la liste des testeurs de la console Google Play jusqu'à la fin
+  du test fermé, ou avant sur simple demande (message privé ou e-mail ci-dessous).
 
 ## 8. Tes droits
 

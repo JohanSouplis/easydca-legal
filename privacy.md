@@ -1,6 +1,6 @@
 # EasyDCA privacy policy
 
-*Last updated: October 21, 2026. [Version française](confidentialite.md)*
+*Last updated: November 6, 2026. [Version française](confidentialite.md)*
 
 This policy explains what data the EasyDCA Android app processes, why, where it is stored and how
 to exercise your rights. It describes the app as it is: if it changes, this page will be updated
@@ -49,6 +49,12 @@ notifications off in Android settings, or reminders off in your DCA.
 
 The **Pépite share card** is an image made on your phone; it only goes to the app you pick in the
 Android share sheet.
+
+**Closed test (before the Play Store release)**: if you ask to test the app, you send your Gmail
+address to the publisher yourself (by private message). It is used **only** to add you to the
+testers list in the Google Play Console, so that Google Play gives you access to the app; it is not
+shared or used for anything else, and it does not go into the app's database. See
+[Join the test](rejoindre-le-test.md) (in French).
 
 ## 4. Who sees what
 
@@ -110,6 +116,8 @@ contain your e-mail, your amounts or your plan.
   [Delete your account](account-deletion.md)). Only exception: XP your sponsor already earned thanks
   to you stays on their account, with no link to yours.
 - On your phone: until you sign out, delete your account or uninstall the app.
+- A tester's Gmail address: in the Google Play Console testers list until the closed test ends, or
+  earlier on request (private message or the e-mail below).
 
 ## 8. Your rights
 
